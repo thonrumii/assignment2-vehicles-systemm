@@ -16,6 +16,7 @@ public abstract class Vehicle {
     public void setDriver(Driver driver){
         this.driver=driver;
     }
+
     public Driver getDriver(){
         return driver;
     }

@@ -4,11 +4,11 @@ public class ElectricTruck extends Truck{
         super(brand, year, capacity, numAxles);
         this.batteryCap=batteryCap;
     }
+
     @Override
     public void startEngine() {
         System.out.println("Electric truck powered on");
     }
-
     @Override
     public void stopEngine() {
         System.out.println("Electric truck powered off");
