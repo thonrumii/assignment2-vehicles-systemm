@@ -5,6 +5,7 @@ public class Driver {
         this.name=name;
         this.licenseNumber=licenseNumber;
     }
+
     public void displayDriverInfo(){
         System.out.println("Driver name: "+name);
         System.out.println("License Number: "+licenseNumber);
